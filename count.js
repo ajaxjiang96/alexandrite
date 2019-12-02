@@ -1,7 +1,11 @@
 'use strict'
 
+var month = 06;
+
 module.exports = {
-  count: () => {
-    console.log(23);
+  count: (month) => {
+    console.log(month);
   },
 };
+
+count(month);
