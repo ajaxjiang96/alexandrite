@@ -1,7 +1,7 @@
 'use strict'
 
 module.exports = {
-  count: () => {
-    console.log(23);
+  count: (age) => {
+    console.log(age);
   },
 };
