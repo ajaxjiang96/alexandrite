@@ -1,10 +1,9 @@
 'use strict'
 
-const GREET = 'AJAX';
 const NAME = 'Greeting!';
 
-const greet = (GREET,myName) => {
-  console.log(GREET +":" + myName)
+const greet = (myName) => {
+  console.log(`Greetings for the ${myName}`);
 }
 
-greet(GREET,NAME);
+greet(NAME);
