@@ -1,6 +1,6 @@
 'use strict'
 
-const NAME = 'Aaron';
+const NAME = 'Greeting!';
 
 const greet = (myName) => {
   console.log(myName)
