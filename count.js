@@ -4,7 +4,7 @@ var month = 06;
 
 module.exports = {
   count: (month) => {
-    console.log(month);
+    console.log(`Counting the countless ${month}`);
   },
 };
 
