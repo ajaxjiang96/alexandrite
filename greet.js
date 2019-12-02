@@ -3,7 +3,7 @@
 const NAME = 'Greeting!';
 
 const greet = (myName) => {
-  console.log(myName)
+  console.log(`Greetings for the ${myName}`);
 }
 
 greet(NAME);
