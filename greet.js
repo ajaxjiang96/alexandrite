@@ -2,8 +2,8 @@
 
 const NAME = 'Aaron';
 
-const greet = (name) => {
-  console.log(name)
+const greet = (myName) => {
+  console.log(myName)
 }
 
 greet(NAME);
