@@ -1,7 +1,7 @@
 'use strict';
 
-function cheer(){
-  console.log('Alexandrite');
+function cheer(param) {
+  console.log('阿列克桑德莱特');
 }
 
-cheer();
+cheer('Alexandrite');
